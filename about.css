@@ -1,0 +1,17 @@
+.text-container{
+    width: 60%;
+}
+
+.aboutme{
+    font-size:70px;
+    font-weight: 700;
+}
+@media (max-width: 736px) {
+    .text-container{
+        width: 90%;
+    }
+    .aboutme{
+        font-size:30px;
+        font-weight: 700;
+    }
+}

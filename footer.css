@@ -1,0 +1,23 @@
+footer{
+    position:relative;
+    z-index: 20;
+    margin-top:200px;
+}
+.copyRight{
+    font-size: 15px;
+}
+.social-media{
+    margin-right: 5px;
+}
+
+@media (max-width: 800px) {
+    .copyRight{
+        font-size: 15px; 
+    }    
+    .ls-tight{
+        font-size:15px
+    }
+    .social-media{
+        margin-right: 3px;
+    }
+}

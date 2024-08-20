@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{ 
+    margin: 0px;
+    padding: 0px;
+    background-color: #5B17A1;
+    width: 100%;
+    z-index: 0;
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+.hidden{
+    display: none;
+    z-index: 50;
+}
+.display{
+    display: flex;
+}
+.link-container{
+    background-color:#EADBFA;
+    position: fixed;
+    z-index:40;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.link-margin{
+    margin-top: 70px;
+}
+.link-container a{
+    display: block;
+    
+}
+.text-box-container{
+    margin-top: 70px;
+    position: relative;
+    z-index: 20;
+}
+.over-lay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5); 
+    z-index: 30;
+  }
+
+.cirscle-design-container{
+    position: absolute;
+    width:45%;
+    aspect-ratio: 1/1;
+    right:70px;
+    top: 90px;
+    z-index: 10;    
+}
+.child{
+    width: 70% ;
+    aspect-ratio: 1/1;
+    background-color:#380E63;
+    opacity: 20%;
+    position: absolute;
+}
+.cirscle-design-container .child:nth-child(1){
+    right:0;
+    bottom:0;   
+}
+.cirscle-design-container .child:nth-child(2){
+    top: 0;
+    left: 0;
+}
+.cirscle-design-container .child:nth-child(3){
+    right:50px;
+    top: 50px;   
+}
+.third{
+    width: 50% ;
+    aspect-ratio: 1/1;
+    background-color:#380E63;
+    opacity: 20%;   
+    position: absolute; 
+    top:0px;
+    right:0;   
+}
+@media (max-width: 736px) {
+    .cirscle-design-container{
+        width: 50%;
+        right: 0;    
+    }
+    
+  }

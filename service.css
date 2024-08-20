@@ -1,0 +1,65 @@
+.text-box-container{
+    padding-bottom: 100px;
+}
+.text-capitalize{
+    font-size:100px;
+    font-weight: 900;
+    word-spacing: 10px;
+}
+.secondContainer{
+    background-color:#EADBFA;
+    position: relative;
+    color: #47127D;
+    padding: 50px 10px;
+    margin-top: 100px;
+    z-index: 30;
+
+}
+.serviceheader{
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.service-text{
+    width: 50%;
+}
+.keepingParagragh{
+    line-height: 1rem;
+}
+.serviceProvided{
+    font-size: 40px;
+    font-weight:900
+}
+.portfolioProfile{
+    background-color:#D6B8F5;
+    padding: 10px 10px;
+}
+.portfolioProfiles{
+    color: #47127D;
+}
+
+@media (max-width: 736px) {
+
+
+    .text-box-container{
+        padding-bottom: 50px;
+    }
+    .text-capitalize{
+        font-size: 50px;
+    }
+
+    .serviceheader{
+        font-size: 20px;
+        font-weight: 900;
+
+        
+    }
+    .service-text{
+        width: 100%;
+    }
+    .serviceProvided{
+        font-size: 20px;
+        font-weight:900
+    }
+    
+}

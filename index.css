@@ -1,0 +1,70 @@
+
+.welcome-name{
+    font-size:100px;
+    font-weight:700;
+    z-index: 20px;
+  }
+
+  .general-content-container{
+    margin-top: 200px;
+  }
+
+  .businessContainer {
+    position: relative;
+    background-position: center;
+    background-size: 100%;
+    aspect-ratio: 2/1;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: blur(1px);
+    z-index: -1;
+    border-radius: 16px; 
+  }
+  
+  .overlay-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+.leisureContainer{
+    background-image: url(./asset/leisure-image.jpg);
+    background-position: center;
+    background-size: 100%;
+    aspect-ratio: 2/1;
+    filter: blur(1px);
+  }
+
+
+  @media (max-width: 736px) {
+    .welcome-name{        
+        font-size: 50px;    
+    }
+    .general-content-container{
+        margin-top: 100px;
+    }
+  }
+
+  @media (max-width: 568px) {
+    .welcome-name{
+        font-size: 30px;
+
+    }
+  }
+
+
+
+
+
+
+
